@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66EB5110-00ED-4A99-48E4-EFBC02B88239" name="tax">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>налог</comment>
+<commentInRDBMS>налог</commentInRDBMS>
+<generatorID>EFCD05EC-6F9C-6596-E417-09E01E63A3FB</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="DC2B5CFA-3745-1E00-7E01-5C2000513718">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>ид</comment>
+<commentInRDBMS>ид</commentInRDBMS>
+<generatorID>2A0DF651-37F4-EB6F-5497-5FC2A4C78D96</generatorID>
+<notes>ид</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="percent" id="AAAF87E4-4617-00C4-8ABA-7B13CC2B776B">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>процент</comment>
+<commentInRDBMS>процент</commentInRDBMS>
+<generatorID>45EA35F7-2708-3BBD-7419-84E3B8EADB4F</generatorID>
+<notes>процент</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_b" id="694D8E02-7B0F-AB86-797F-8DC92F7CD252">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>начала действия налога</comment>
+<commentInRDBMS>начала действия налога</commentInRDBMS>
+<generatorID>E512D598-CBF0-D432-9465-14AC5E508664</generatorID>
+<notes>начала действия налога</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_e" id="DA513D2B-8C96-CEB1-670B-D43DC7732245">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>конец действия налога</comment>
+<commentInRDBMS>конец действия налога</commentInRDBMS>
+<generatorID>148745D4-6762-87EA-CF15-9C6DA538B4AF</generatorID>
+<notes>конец действия налога</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_add" id="53AF0D50-75BD-1D0C-9DE0-E6A8AAA26B50">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>Дата ввода</comment>
+<commentInRDBMS>Дата ввода</commentInRDBMS>
+<generatorID>56C26A87-26A6-DEC8-02CE-E53FA598F088</generatorID>
+<notes>Дата ввода</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_add" id="A0A4EEEB-9D49-2248-B7F1-043BA7D4B65B">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>оператор ввода</comment>
+<commentInRDBMS>оператор ввода</commentInRDBMS>
+<generatorID>FC555B78-B91D-0201-7F45-59EDD88EAB6C</generatorID>
+<notes>оператор ввода</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_annul" id="43183AAB-08B4-DB12-77AF-202631F26A75">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>удаливший</comment>
+<commentInRDBMS>удаливший</commentInRDBMS>
+<generatorID>4F59A017-3ED1-CEC9-AB4D-944EBFF62300</generatorID>
+<notes>удаливший</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_annul" id="76CB9C78-EE7D-1582-B0D7-A649D4087823">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>дата удаление</comment>
+<commentInRDBMS>дата удаление</commentInRDBMS>
+<generatorID>2A3290F6-3FB3-1BF2-9E7C-06332A4E64CC</generatorID>
+<notes>дата удаление</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_tax" id="28AC1E27-B3F7-D638-E55E-285F5F5F9835">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 17:35:59 UTC</createdTime>
+<comment>Название налога</comment>
+<commentInRDBMS>Название налога</commentInRDBMS>
+<generatorID>41883B48-A4CD-20D2-9DCA-DFBF60B454D9</generatorID>
+<notes>Название налога</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="040A7685-AA93-13F3-AADE-5910E4B53EB6" name="tax_PK">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<generatorID>06CE6433-3CC8-6FE7-19B7-35ED9E0B75CC</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC2B5CFA-3745-1E00-7E01-5C2000513718"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

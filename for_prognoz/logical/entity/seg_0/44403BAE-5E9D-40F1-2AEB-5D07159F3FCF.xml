@@ -1,0 +1,233 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44403BAE-5E9D-40F1-2AEB-5D07159F3FCF" name="view_deposit">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:11:47 UTC</createdTime>
+<commentInRDBMS>вид вклада</commentInRDBMS>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="2E324753-7217-90F7-058A-0C791B4D431B">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:12:10 UTC</createdTime>
+<comment>ид</comment>
+<commentInRDBMS>ид</commentInRDBMS>
+<notes>ид</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name_deposit" id="AF093F1F-7AB4-50C0-8B9D-3CB60915E225">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:12:41 UTC</createdTime>
+<comment>Название депозита</comment>
+<commentInRDBMS>Название депозита</commentInRDBMS>
+<notes>Название депозита</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="limit" id="EFB0632F-A498-482D-BEBB-F9476D66C793">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-26 10:14:01 UTC</createdTime>
+<comment>Срок вклада</comment>
+<commentInRDBMS>Срок вклада</commentInRDBMS>
+<notes>Срок вклада</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="percent" id="2C1091EC-42DE-205C-E9ED-50F3FDAF39A0">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-26 10:31:51 UTC</createdTime>
+<comment>Процент(годовой)</comment>
+<commentInRDBMS>Процент(годовой)</commentInRDBMS>
+<notes>Процент(годовой)</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_open" id="FAC5837D-9000-A16A-3B70-B6EEF8C63596">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-26 11:11:02 UTC</createdTime>
+<comment>Начало действия предложения</comment>
+<commentInRDBMS>Начало действия предложения</commentInRDBMS>
+<notes>Начало действия предложения</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date_close" id="BFBB18FC-57A5-18A0-67AF-A301B4160F88">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-26 11:11:02 UTC</createdTime>
+<comment>конец действия предложения</comment>
+<commentInRDBMS>конец действия предложения</commentInRDBMS>
+<notes>конец действия предложения</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date_create" id="63A67129-60DF-F506-0E0E-CDE4055EEE14">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-26 11:11:02 UTC</createdTime>
+<comment>Дата ввода</comment>
+<commentInRDBMS>Дата ввода</commentInRDBMS>
+<notes>Дата ввода</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_create" id="EFB2F35B-664B-9CA9-AC76-D3C7E2077A52">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-26 11:11:02 UTC</createdTime>
+<comment>оператор ввода</comment>
+<commentInRDBMS>оператор ввода</commentInRDBMS>
+<notes>оператор ввода</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_annul" id="E0C8FB72-1249-5498-2087-1788E43A8052">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-26 11:11:02 UTC</createdTime>
+<comment>дата ввода закрытия предложения</comment>
+<commentInRDBMS>дата ввода закрытия предложения</commentInRDBMS>
+<notes>дата ввода закрытия предложения</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_annul" id="FAC8011C-9B25-48A1-56DD-49AD09851B49">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-26 11:11:02 UTC</createdTime>
+<comment>оператор закрывший предложение</comment>
+<commentInRDBMS>оператор закрывший предложение</commentInRDBMS>
+<notes>оператор закрывший предложение</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="D9066BC6-599F-924C-51B4-9AE4CFE6E6EB">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 07:57:13 UTC</createdTime>
+<comment>ид</comment>
+<generatorID>62D768FA-95F7-9B95-EC3B-4DD41828152D</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<referedAttribute>E4ABDC4A-EBFF-8780-8DBF-BC138C1488C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="1D57B188-403B-1A38-91B0-2D8FC57420D2">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 07:58:00 UTC</createdTime>
+<comment>ид</comment>
+<generatorID>641B69B3-2F27-E483-147B-4D3D251CB102</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<referedAttribute>D69F3AF2-697F-4A4A-968A-D32232067FE5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="A1C93AE6-AC1D-4AB2-DAEC-A632DD9FB3F5">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 07:58:35 UTC</createdTime>
+<comment>ид</comment>
+<generatorID>6E7D8531-833D-9477-5CFA-934AC5F1B2E6</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<referedAttribute>643B0547-3A01-D9C3-EBD6-661045797F0A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CCDC06CE-9C18-2B9B-F49D-71CD1B009B82" name="view_deposit PK">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:12:35 UTC</createdTime>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2E324753-7217-90F7-058A-0C791B4D431B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

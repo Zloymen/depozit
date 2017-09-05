@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="346FF168-BBD2-66CC-62FB-3A9C44468644" name="role">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>Роли</comment>
+<commentInRDBMS>Роли</commentInRDBMS>
+<generatorID>4E9ED25B-4127-C8F1-A362-81BE4DE19F48</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="68071748-8048-DA15-0F46-53B19425203A">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>ид</comment>
+<commentInRDBMS>ид</commentInRDBMS>
+<generatorID>C0192AD2-1A2A-1A1B-0C2E-57BF45DECE1A</generatorID>
+<notes>ид</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name_role" id="78A5E437-D75E-D0BF-2719-5476E2152F0C">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>Название роли</comment>
+<commentInRDBMS>Название роли</commentInRDBMS>
+<generatorID>B338BE77-F2DC-EABC-B6B8-CD356EB0EA09</generatorID>
+<notes>Название роли</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="094F6AF0-2ECB-F3B5-9734-628D68E70E59" name="role_PK">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<generatorID>37C7CD31-D174-235A-4CAE-45F31C68A4EA</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68071748-8048-DA15-0F46-53B19425203A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

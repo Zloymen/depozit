@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2FF01E1E-4371-1546-CE9A-6B4543382566" name="type_currency">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:26:21 UTC</createdTime>
+<comment>валюта</comment>
+<commentInRDBMS>валюта</commentInRDBMS>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+<item key="8EB47651-FB0E-214B-2A0D-2BB66F8ACB69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="643B0547-3A01-D9C3-EBD6-661045797F0A">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:29:41 UTC</createdTime>
+<comment>ид</comment>
+<commentInRDBMS>ид</commentInRDBMS>
+<notes>ид</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+<item key="8EB47651-FB0E-214B-2A0D-2BB66F8ACB69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name_currency" id="8109EFCE-827E-80E3-AA71-A17F5FD55E46">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:29:55 UTC</createdTime>
+<comment>Название налога</comment>
+<commentInRDBMS>Название налога</commentInRDBMS>
+<notes>Название налога</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+<item key="8EB47651-FB0E-214B-2A0D-2BB66F8ACB69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="n_currency" id="209A2293-5010-883C-8392-547CE00E12FB">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 17:35:07 UTC</createdTime>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+<item key="8EB47651-FB0E-214B-2A0D-2BB66F8ACB69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DEB462C7-A1FB-3326-8406-F58E9A5A8313" name="type_currency PK">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:37:58 UTC</createdTime>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="false"/>
+<item key="8EB47651-FB0E-214B-2A0D-2BB66F8ACB69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>643B0547-3A01-D9C3-EBD6-661045797F0A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

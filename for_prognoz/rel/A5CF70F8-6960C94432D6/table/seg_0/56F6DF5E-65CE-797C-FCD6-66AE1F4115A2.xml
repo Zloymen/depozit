@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56F6DF5E-65CE-797C-FCD6-66AE1F4115A2" name="course">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>Курс валют</comment>
+<commentInRDBMS>Курс валют</commentInRDBMS>
+<generatorID>F2D86A17-1D26-AF62-5672-A9DF5FEF8AFF</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="CAAC9B57-1D9D-89A6-10B9-728696FE43FE">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>ид</comment>
+<commentInRDBMS>ид</commentInRDBMS>
+<generatorID>E29322C4-2CB3-0D40-273A-38D01ED5147F</generatorID>
+<notes>ид</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_b" id="A41E7BFD-EA37-9950-BD3E-A4AE68FC5C72">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>дата начала</comment>
+<commentInRDBMS>дата начала</commentInRDBMS>
+<generatorID>7185469D-E5FC-7ADE-B493-95D019031FB1</generatorID>
+<notes>дата начала</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_e" id="B28537A9-6712-FB86-EB3E-812B20ACF1F5">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>дата конца</comment>
+<commentInRDBMS>дата конца</commentInRDBMS>
+<generatorID>3270D69C-381D-446C-D1CB-07697B4BF444</generatorID>
+<notes>дата конца</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cost" id="C5D7B9E7-C638-C6F4-FCA8-3505F09B329E">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>единиц</comment>
+<commentInRDBMS>единиц</commentInRDBMS>
+<generatorID>AC27935E-55BF-9682-0653-53E255C72B7B</generatorID>
+<notes>единиц</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type_cost" id="A9C473DB-2E07-D43C-11A0-9B2022850CA2">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>в чем</comment>
+<commentInRDBMS>в чем</commentInRDBMS>
+<generatorID>436E917B-4502-CAA0-E9A6-B3E9224CA2C7</generatorID>
+<notes>в чем</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_add" id="D4800EB9-CCE5-E80C-C85C-81D054AC84E8">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>Дата ввода</comment>
+<commentInRDBMS>Дата ввода</commentInRDBMS>
+<generatorID>04F7FA3B-F28C-3077-1B35-BDC7C42D6B0F</generatorID>
+<notes>Дата ввода</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_add" id="4C4207E6-766D-2CC5-E95F-BB3B4DC44287">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>оператор ввода</comment>
+<commentInRDBMS>оператор ввода</commentInRDBMS>
+<generatorID>73A0FE4F-8DBE-DAFE-92BE-C40E377D66CD</generatorID>
+<notes>оператор ввода</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_annul" id="8D5848D1-9F9D-CE3B-B432-8951A537CCB6">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>удаливший</comment>
+<commentInRDBMS>удаливший</commentInRDBMS>
+<generatorID>191AFED9-28D6-C3BD-4320-905F0CB57E51</generatorID>
+<notes>удаливший</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_annul" id="3A8FF9C7-4997-F1B1-2FA1-86B99FA3E181">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>дата удаление</comment>
+<commentInRDBMS>дата удаление</commentInRDBMS>
+<generatorID>B2C367E2-DE2A-1DFB-FCA5-BEAF928847D5</generatorID>
+<notes>дата удаление</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type_currency_id" id="CC1C8046-F495-D7D1-BC4F-7A09824CD8AE">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>ид</comment>
+<generatorID>B84E889F-F892-2384-B065-73FD268D6E72</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DF959E1-2758-C415-7B9D-B51ADBCBCB22" referredColumn="00054204-7B13-16BC-58BB-97CA8EB32F91"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F8D72F5-7C9F-58E1-F4F8-7539979A1553" name="course_PK">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<generatorID>6962B80A-5C07-A62F-3744-BFBDFF10EF1C</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAAC9B57-1D9D-89A6-10B9-728696FE43FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="316B659C-FDAF-DB5D-7F1D-8BBBDCC56587" name="course_type_currency_FK">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<generatorID>0A8A3C29-C739-E752-3013-640DC69EBED6</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC1C8046-F495-D7D1-BC4F-7A09824CD8AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

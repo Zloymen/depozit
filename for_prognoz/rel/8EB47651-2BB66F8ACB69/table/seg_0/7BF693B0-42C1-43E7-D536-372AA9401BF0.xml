@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7BF693B0-42C1-43E7-D536-372AA9401BF0" name="depositor">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 09:55:11 UTC</createdTime>
+<comment>вкладчик</comment>
+<commentInRDBMS>вкладчик</commentInRDBMS>
+<notes>вкладчик</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="4486FA14-79DF-0D8E-919E-EF26957E4D02">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:05:20 UTC</createdTime>
+<comment>ид</comment>
+<commentInRDBMS>ид</commentInRDBMS>
+<notes>ид</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type_dep_id" id="6B240A87-6B58-2D6C-D8EF-72D2A803DCD4">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:01:59 UTC</createdTime>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="60BD40F9-9E75-0AF3-FE33-64B6B31F9C66" referredColumn="F2AAF3F7-22A2-1391-BD55-A6689F8C3AA5"/>
+</associations>
+</Column>
+<Column name="details_depositor" id="8C668D2E-73C9-60C9-51DA-7178109F8824">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:05:20 UTC</createdTime>
+<comment>реквизиты вкладчика</comment>
+<commentInRDBMS>реквизиты вкладчика</commentInRDBMS>
+<notes>реквизиты вкладчика</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFE6E6A4-741D-ACE7-2BD2-C6C3AD76EEBB" name="depositor_PK">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:05:20 UTC</createdTime>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4486FA14-79DF-0D8E-919E-EF26957E4D02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8C93EC12-2A9B-987B-8817-9DBC158377D8" name="depositor_type_dep_FK">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:01:59 UTC</createdTime>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B240A87-6B58-2D6C-D8EF-72D2A803DCD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+для работы приложения нужен Сервер БД Oracle 11 express;
+Для самого приложения клиент не нужен.
+
+Установка через дамп
+В Dump лежит дамп базы, требуется пользователь БД deposit с правами connect, resources.
+Можно потом работать под ним.
+Или создать deposit_role с правами connect, resources. и создать пользователя adm_deposit(администратор по умолчанию) с правами deposit_role;
+см для помощи script:
+
+
+Установка при помощи скриптов:
+под SYS(system)
+create_table_space
+create_shema_deposit
+под deposit
+Create_table
+others
+накат пакетов в любом порядке *.pck
+grants
+data

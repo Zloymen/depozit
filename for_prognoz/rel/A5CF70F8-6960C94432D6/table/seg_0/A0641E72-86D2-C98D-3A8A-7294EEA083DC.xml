@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A0641E72-86D2-C98D-3A8A-7294EEA083DC" name="type_currency">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>валюта</comment>
+<commentInRDBMS>валюта</commentInRDBMS>
+<generatorID>2FF01E1E-4371-1546-CE9A-6B4543382566</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="00054204-7B13-16BC-58BB-97CA8EB32F91">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>ид</comment>
+<commentInRDBMS>ид</commentInRDBMS>
+<generatorID>643B0547-3A01-D9C3-EBD6-661045797F0A</generatorID>
+<notes>ид</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_currency" id="D3EDF68B-26DB-72F1-83B7-EBDA23B726C1">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>Название налога</comment>
+<commentInRDBMS>Название налога</commentInRDBMS>
+<generatorID>8109EFCE-827E-80E3-AA71-A17F5FD55E46</generatorID>
+<notes>Название налога</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="n_currency" id="01EF6132-95D9-8BFC-EB0D-0879DAC9DA8F">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 17:35:59 UTC</createdTime>
+<generatorID>209A2293-5010-883C-8392-547CE00E12FB</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F22D614-E767-292E-0826-694F2452F118" name="type_currency_PK">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<generatorID>DEB462C7-A1FB-3326-8406-F58E9A5A8313</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00054204-7B13-16BC-58BB-97CA8EB32F91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

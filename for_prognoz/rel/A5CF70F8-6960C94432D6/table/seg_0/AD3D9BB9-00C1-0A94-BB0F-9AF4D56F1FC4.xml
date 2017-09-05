@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD3D9BB9-00C1-0A94-BB0F-9AF4D56F1FC4" name="Rights">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>Права</comment>
+<commentInRDBMS>Права</commentInRDBMS>
+<generatorID>386A3FD3-01D9-6666-41FB-E29AC417E9B3</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="BAA10536-714F-DE5F-D743-0256A6598171">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>ид</comment>
+<commentInRDBMS>ид</commentInRDBMS>
+<generatorID>F49A5456-9241-D708-FDB8-AB59C505F79D</generatorID>
+<notes>ид</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Users_id" id="BAC4CE81-1A6F-002B-5A5C-140EFF9758C7">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>ид</comment>
+<generatorID>001F32B2-9889-DC5D-7D9F-0589D28D6938</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3889D50-0D38-A365-24D2-449FEA3DA3DC" referredColumn="EAA11FF5-5A35-119A-F237-BF8F5DDB420C"/>
+</associations>
+</Column>
+<Column name="role_id" id="7867A269-DED7-FFB8-0AA7-05A745AA3FF0">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>ид</comment>
+<generatorID>D4A3CB74-5F85-41B6-DF3E-3CE3B92EF632</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0927EE85-B4B1-8AAC-780B-8BB9EBC91523" referredColumn="68071748-8048-DA15-0F46-53B19425203A"/>
+</associations>
+</Column>
+<Column name="role_id2" id="A24F8A56-4B3D-C5F7-1D9B-3572B1DEB18A">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 17:35:59 UTC</createdTime>
+<comment>ид</comment>
+<generatorID>5EAA306B-9C42-E5A3-481C-93F7DB98D503</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E581FBDE-D555-4304-4F34-2414569D90DA" referredColumn="68071748-8048-DA15-0F46-53B19425203A"/>
+</associations>
+</Column>
+<Column name="Users_id2" id="294A29F4-2CC7-C0A4-0D6D-C8D82E743ECF">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 17:35:59 UTC</createdTime>
+<comment>ид</comment>
+<generatorID>F703CCC0-D09B-3AE6-34FC-023D1C593702</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A8C4F0B-D96F-A69B-7081-5BDECD827813" referredColumn="EAA11FF5-5A35-119A-F237-BF8F5DDB420C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E5D1CEF1-01E0-97C7-FC6C-31B1124D4C72" name="Rights_PK">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<generatorID>A5732A67-0DFC-D361-570E-F28116E6B78B</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAA10536-714F-DE5F-D743-0256A6598171"/>
+<colUsage columnID="A24F8A56-4B3D-C5F7-1D9B-3572B1DEB18A"/>
+<colUsage columnID="294A29F4-2CC7-C0A4-0D6D-C8D82E743ECF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F548F96-B0F3-C618-F3D3-C10AE9382BBE" name="Rights_Users_FK">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<generatorID>DA43A403-09ED-BD43-789A-E073795C149D</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAC4CE81-1A6F-002B-5A5C-140EFF9758C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9F013DF-011E-C612-7ED6-D0DA877511AD" name="Rights_role_FK">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<generatorID>9264D998-E9D2-1FC7-7071-B4998C81E4B6</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7867A269-DED7-FFB8-0AA7-05A745AA3FF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BFCDC116-2EE4-B980-1DBC-DAF2D80C7947" name="Rights_role_FKv1">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 17:35:59 UTC</createdTime>
+<generatorID>49CD85AC-9775-5124-76C3-0FC76CEF3763</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A24F8A56-4B3D-C5F7-1D9B-3572B1DEB18A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2550D6CC-5E94-A68B-ABEE-43A7D815F52D" name="Rights_Users_FKv1">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 17:35:59 UTC</createdTime>
+<generatorID>3B0F4799-DEDC-824C-D479-FCEC8A0316FB</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="294A29F4-2CC7-C0A4-0D6D-C8D82E743ECF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

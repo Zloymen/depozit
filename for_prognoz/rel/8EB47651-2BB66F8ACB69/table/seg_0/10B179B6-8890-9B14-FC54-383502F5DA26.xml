@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="10B179B6-8890-9B14-FC54-383502F5DA26" name="view_deposit">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 09:43:50 UTC</createdTime>
+<comment>вид депозита</comment>
+<commentInRDBMS>вид депозита</commentInRDBMS>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9A1F7E5D-5053-E007-623D-B2C851E75850">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 09:48:03 UTC</createdTime>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="n_deposit" id="158E1E5C-FC27-D1E7-C224-679BD36CCB24">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 09:48:54 UTC</createdTime>
+<comment>Наименование депозита</comment>
+<commentInRDBMS>Наименование депозита</commentInRDBMS>
+<notes>Наименование депозита</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Banks_id" id="38A12130-7EC4-ACEC-3082-4EA82417A8D1">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 09:49:46 UTC</createdTime>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9B37A112-4599-D850-8757-C5BC2F53C9BD" referredColumn="67B5A700-A4E2-D0A6-E916-26585B59EF83"/>
+</associations>
+</Column>
+<Column name="type_dep_id" id="C6829BDB-21FA-7D62-085F-D9F42BCF0294">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:01:29 UTC</createdTime>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC299F43-30CC-AB1E-2D5B-A442371B3C54" referredColumn="F2AAF3F7-22A2-1391-BD55-A6689F8C3AA5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F693EC1-560B-712D-4B3B-25A1A365B5A8" name="view_deposit_PK">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 09:48:03 UTC</createdTime>
+<comment>ид</comment>
+<commentInRDBMS>ид</commentInRDBMS>
+<notes>ид</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A1F7E5D-5053-E007-623D-B2C851E75850"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="833B0B4A-EB91-891D-87BF-461C36485599" name="view_deposit_Banks_FK">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 09:49:46 UTC</createdTime>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38A12130-7EC4-ACEC-3082-4EA82417A8D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C1CF1B6D-A4A3-F9AE-9DA3-C42E3988D502" name="view_deposit_type_dep_FK">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:01:29 UTC</createdTime>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6829BDB-21FA-7D62-085F-D9F42BCF0294"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

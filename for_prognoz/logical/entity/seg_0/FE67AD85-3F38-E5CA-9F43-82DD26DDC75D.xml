@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FE67AD85-3F38-E5CA-9F43-82DD26DDC75D" name="deposits">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:29:05 UTC</createdTime>
+<comment>Вклады</comment>
+<commentInRDBMS>Вклады</commentInRDBMS>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="2079E283-84C3-E993-D930-6D759745EFB2">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:58:50 UTC</createdTime>
+<comment>ид</comment>
+<commentInRDBMS>ид</commentInRDBMS>
+<notes>ид</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date_open" id="7471D144-5D85-2C26-6D99-9DC99A9D67BD">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-26 10:37:40 UTC</createdTime>
+<comment>дата открытия</comment>
+<commentInRDBMS>дата открытия</commentInRDBMS>
+<notes>дата открытия</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id4" id="03C9E200-8453-4E88-214F-B3A145831DE2">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-26 10:42:35 UTC</createdTime>
+<generatorID>930D4E77-67C0-4A19-686F-6464B6723BDC</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<referedAttribute>62965135-D1B6-E8B2-9727-07AF6F5D2C54</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="summa_deposit" id="9B87A84F-A33F-67A1-D3EF-2456EEA75CBD">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-26 10:43:37 UTC</createdTime>
+<comment>Сумма депозита</comment>
+<commentInRDBMS>Сумма депозита</commentInRDBMS>
+<notes>Сумма депозита</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date_close" id="F62E2B4A-E02C-26A0-AF87-1302D4C65FD1">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-26 10:44:29 UTC</createdTime>
+<comment>Дата закрытия</comment>
+<commentInRDBMS>Дата закрытия</commentInRDBMS>
+<notes>Дата закрытия</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_open" id="ECF435A0-EB0D-9C7B-B88A-BA7F7CF33BEE">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-26 10:59:18 UTC</createdTime>
+<comment>оператор открытия вклада</comment>
+<commentInRDBMS>оператор открытия вклада</commentInRDBMS>
+<notes>оператор открытия вклада</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_close" id="11C162C4-CAE0-C96F-F1D2-46F4432A49AB">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-26 10:59:18 UTC</createdTime>
+<comment>оператор закрытия вклада</comment>
+<commentInRDBMS>оператор закрытия вклада</commentInRDBMS>
+<notes>оператор закрытия вклада</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="B9BF0B20-31BF-7DF9-FC58-6E9943AF5385">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 07:59:31 UTC</createdTime>
+<comment>ид</comment>
+<generatorID>75E2D89B-2342-ACAA-EF1D-9A6C751D519E</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<referedAttribute>2E324753-7217-90F7-058A-0C791B4D431B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A9613534-381D-23EA-145E-F2BD37AAC2F8" name="deposit PK">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:59:26 UTC</createdTime>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2079E283-84C3-E993-D930-6D759745EFB2</attributeRef>
+<attributeRef>03C9E200-8453-4E88-214F-B3A145831DE2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

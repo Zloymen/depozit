@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7AEA355B-3DB8-5E6E-4808-6D6A2306847F" name="Banks">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 09:23:37 UTC</createdTime>
+<comment>Банки</comment>
+<commentInRDBMS>Банки</commentInRDBMS>
+<notes>Спр. Банков</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+<item key="8EB47651-FB0E-214B-2A0D-2BB66F8ACB69" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="E4ABDC4A-EBFF-8780-8DBF-BC138C1488C5">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 09:24:54 UTC</createdTime>
+<comment>ид</comment>
+<commentInRDBMS>ид</commentInRDBMS>
+<notes>ид</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+<item key="8EB47651-FB0E-214B-2A0D-2BB66F8ACB69" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name_bank" id="5FD7882A-42FD-A1CD-CF57-78AB52629BB0">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 09:26:53 UTC</createdTime>
+<comment>Название банка</comment>
+<commentInRDBMS>Название банка</commentInRDBMS>
+<notes>Название банка</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+<item key="8EB47651-FB0E-214B-2A0D-2BB66F8ACB69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="details_bank" id="5F90B84C-9732-7A62-3FC1-2967EEE3B1A6">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 09:28:22 UTC</createdTime>
+<comment>реквизиты банка</comment>
+<commentInRDBMS>реквизиты банка</commentInRDBMS>
+<notes>реквизиты банка</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+<item key="8EB47651-FB0E-214B-2A0D-2BB66F8ACB69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date_add" id="91EB2F0F-D695-2E48-B3E0-25AA97EA4330">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-26 11:18:18 UTC</createdTime>
+<comment>Дата ввода</comment>
+<commentInRDBMS>Дата ввода</commentInRDBMS>
+<notes>Дата ввода</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+<item key="8EB47651-FB0E-214B-2A0D-2BB66F8ACB69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="User_add" id="691CF41A-F53E-3BF4-0EE2-6764307CD678">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-26 11:18:18 UTC</createdTime>
+<comment>оператор ввода</comment>
+<commentInRDBMS>оператор ввода</commentInRDBMS>
+<notes>оператор ввода</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+<item key="8EB47651-FB0E-214B-2A0D-2BB66F8ACB69" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9B7C1C96-7E6B-366D-60C6-8B3681F05CBE" name="Banks PK">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:13:28 UTC</createdTime>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="false"/>
+<item key="8EB47651-FB0E-214B-2A0D-2BB66F8ACB69" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4ABDC4A-EBFF-8780-8DBF-BC138C1488C5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

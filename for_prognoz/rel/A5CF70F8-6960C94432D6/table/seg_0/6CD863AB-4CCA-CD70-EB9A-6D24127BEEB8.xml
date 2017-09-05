@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6CD863AB-4CCA-CD70-EB9A-6D24127BEEB8" name="depositor">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>Вкладчик</comment>
+<commentInRDBMS>Вкладчик</commentInRDBMS>
+<generatorID>5560181B-C778-CE49-1818-A97B8737A4D4</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="4F3E3F9E-20D2-2FA4-D995-9E590CB94370">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<generatorID>62965135-D1B6-E8B2-9727-07AF6F5D2C54</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_depositor" id="318BF443-FD35-D180-2AF7-E6FE8BAAC0A2">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>Наименование вкладчика</comment>
+<commentInRDBMS>Наименование вкладчика</commentInRDBMS>
+<generatorID>4AEB9DD9-5B49-7DD1-8BDF-1957ED515768</generatorID>
+<notes>Наименование вкладчика</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="detail_depositor" id="369CB6F2-4B5B-82E1-02A7-38E8AB40BD31">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>Описание вкладчика</comment>
+<commentInRDBMS>Описание вкладчика</commentInRDBMS>
+<generatorID>0E77204A-9814-D2F7-D5B2-BDB688F06457</generatorID>
+<notes>Описание вкладчика</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_add" id="E3A9186B-9F97-0205-2E1E-D8098CF52821">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>Дата ввода</comment>
+<commentInRDBMS>Дата ввода</commentInRDBMS>
+<generatorID>C892DD33-F9A3-EC38-BF8E-C1C6705609F5</generatorID>
+<notes>Дата ввода</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_add" id="B4CE9A84-405A-AB2A-9B8A-A7B9A1B7E61E">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>оператор ввода</comment>
+<commentInRDBMS>оператор ввода</commentInRDBMS>
+<generatorID>BBD527B7-099C-0B27-DC6E-57757717836C</generatorID>
+<notes>оператор ввода</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type_depositor_id" id="55BD430D-682C-25A7-BA72-F41EBA0FC9C5">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>ид</comment>
+<generatorID>B802ABEF-05B7-028A-EBBE-4A8E32893345</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="467BA316-6A8D-7BD8-4DA1-0E81033FA018" referredColumn="20D858C9-6A58-944C-4FE7-572919FE2880"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E3F3547-4CB9-C399-629B-0B47BAE3C350" name="depositor_PK">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<generatorID>4F7BC66D-861E-A55F-4841-9DC3B6071675</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F3E3F9E-20D2-2FA4-D995-9E590CB94370"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3FAE9EB-5B69-A3C7-47E8-8691E5783884" name="depositor_type_depositor_FK">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<generatorID>36D5E87F-E52F-BEE2-80CA-81D1B4DBD4FB</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55BD430D-682C-25A7-BA72-F41EBA0FC9C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

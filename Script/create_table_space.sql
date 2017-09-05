@@ -1,0 +1,2 @@
+CREATE TABLESPACE deposit DATAFILE 'C:\oraclexe\app\oracle\oradata\XE\deposit.dbf'
+SIZE 100M REUSE AUTOEXTEND ON NEXT 2M MAXSIZE 200M

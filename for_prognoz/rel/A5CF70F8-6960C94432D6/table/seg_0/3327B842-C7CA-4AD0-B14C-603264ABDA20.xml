@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3327B842-C7CA-4AD0-B14C-603264ABDA20" name="deposits">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>Вклады</comment>
+<commentInRDBMS>Вклады</commentInRDBMS>
+<generatorID>FE67AD85-3F38-E5CA-9F43-82DD26DDC75D</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<ordsAlias>deposit</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5B49F285-32D9-6CB0-11BC-DF926A02895D">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>ид</comment>
+<commentInRDBMS>ид</commentInRDBMS>
+<generatorID>2079E283-84C3-E993-D930-6D759745EFB2</generatorID>
+<notes>ид</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_open" id="EF5E3956-8B09-C98B-6964-69BCACA469CD">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>дата открытия</comment>
+<commentInRDBMS>дата открытия</commentInRDBMS>
+<generatorID>7471D144-5D85-2C26-6D99-9DC99A9D67BD</generatorID>
+<notes>дата открытия</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="depositor_id" id="1474982A-B2E8-54D6-ED6B-FA006C09C0D2">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<generatorID>03C9E200-8453-4E88-214F-B3A145831DE2</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F1441B4-36CB-0A3D-577D-68433DBA8BF2" referredColumn="4F3E3F9E-20D2-2FA4-D995-9E590CB94370"/>
+</associations>
+</Column>
+<Column name="summa_deposit" id="F699E7EB-BA6E-B01F-72E7-4E3760171A41">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>Сумма депозита</comment>
+<commentInRDBMS>Сумма депозита</commentInRDBMS>
+<generatorID>9B87A84F-A33F-67A1-D3EF-2456EEA75CBD</generatorID>
+<notes>Сумма депозита</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_close" id="57F072D4-D4FC-4618-978E-20C3DADD8AB2">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>Дата закрытия</comment>
+<commentInRDBMS>Дата закрытия</commentInRDBMS>
+<generatorID>F62E2B4A-E02C-26A0-AF87-1302D4C65FD1</generatorID>
+<notes>Дата закрытия</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_open" id="7F4C3D2A-0530-A755-0BB7-59445F9F744C">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>оператор открытия вклада</comment>
+<commentInRDBMS>оператор открытия вклада</commentInRDBMS>
+<generatorID>ECF435A0-EB0D-9C7B-B88A-BA7F7CF33BEE</generatorID>
+<notes>оператор открытия вклада</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="user_close" id="D67DB3B7-8885-8DD4-8A52-705071E7AFA0">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>оператор закрытия вклада</comment>
+<commentInRDBMS>оператор закрытия вклада</commentInRDBMS>
+<generatorID>11C162C4-CAE0-C96F-F1D2-46F4432A49AB</generatorID>
+<notes>оператор закрытия вклада</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="view_deposit_id" id="76805234-140F-8DEB-37CA-34D5A02D4489">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<comment>ид</comment>
+<generatorID>B9BF0B20-31BF-7DF9-FC58-6E9943AF5385</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="27D49DE7-1F89-A9BD-6B8E-C66184D2B000" referredColumn="87FFA36C-ED3C-534D-8467-22F7FDD5A8D2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB643E53-8498-D5D9-998C-DB7E49D38E83" name="deposits_PK">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<generatorID>A9613534-381D-23EA-145E-F2BD37AAC2F8</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B49F285-32D9-6CB0-11BC-DF926A02895D"/>
+<colUsage columnID="1474982A-B2E8-54D6-ED6B-FA006C09C0D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B73D13E5-4BDA-2C19-2A8A-418781A1C201" name="deposits_view_deposit_FK">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<generatorID>75E2D89B-2342-ACAA-EF1D-9A6C751D519E</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76805234-140F-8DEB-37CA-34D5A02D4489"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E894528-C725-53F9-D468-8719EF481D98" name="deposits_depositor_FK">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 08:11:27 UTC</createdTime>
+<generatorID>930D4E77-67C0-4A19-686F-6464B6723BDC</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1474982A-B2E8-54D6-ED6B-FA006C09C0D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="for_prognoz" id="CC9FCD48-E864-3C8E-F4FA-E8AB6F5C47D2" version="3.5">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 09:19:10 UTC</createdTime>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CC9FCD48-E864-3C8E-F4FA-E8AB6F5C47D2</designId>
+</OSDM_Design>

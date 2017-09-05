@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E34D812E-F398-ADD3-B42E-D5A451896A6A" mainViewID="62995010-4C3B-9AD1-8595-3B4E9A2F2FED">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 09:19:10 UTC</createdTime>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

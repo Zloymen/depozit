@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="386A3FD3-01D9-6666-41FB-E29AC417E9B3" name="Rights">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-26 11:52:31 UTC</createdTime>
+<comment>Права</comment>
+<commentInRDBMS>Права</commentInRDBMS>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="F49A5456-9241-D708-FDB8-AB59C505F79D">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 04:29:42 UTC</createdTime>
+<comment>ид</comment>
+<commentInRDBMS>ид</commentInRDBMS>
+<notes>ид</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="5EAA306B-9C42-E5A3-481C-93F7DB98D503">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 13:34:17 UTC</createdTime>
+<comment>ид</comment>
+<generatorID>49CD85AC-9775-5124-76C3-0FC76CEF3763</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<referedAttribute>C0192AD2-1A2A-1A1B-0C2E-57BF45DECE1A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="F703CCC0-D09B-3AE6-34FC-023D1C593702">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 13:34:22 UTC</createdTime>
+<comment>ид</comment>
+<generatorID>3B0F4799-DEDC-824C-D479-FCEC8A0316FB</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="true"/>
+</engineerTo>
+<referedAttribute>F89116D2-5426-2A2C-6EB7-7421D5809AC3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5732A67-0DFC-D361-570E-F28116E6B78B" name="Rights PK">
+<createdBy>zloymen</createdBy>
+<createdTime>2015-06-27 04:29:53 UTC</createdTime>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A5CF70F8-B7A1-89D1-6251-6960C94432D6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F49A5456-9241-D708-FDB8-AB59C505F79D</attributeRef>
+<attributeRef>5EAA306B-9C42-E5A3-481C-93F7DB98D503</attributeRef>
+<attributeRef>F703CCC0-D09B-3AE6-34FC-023D1C593702</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85A9A738-91C2-BA36-F9E1-E19D1884612B" name="type_dep">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 09:56:49 UTC</createdTime>
+<comment>Тип депозита или вкладчика</comment>
+<commentInRDBMS>Тип депозита или вкладчика</commentInRDBMS>
+<notes>Тип депозита или вкладчика</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F2AAF3F7-22A2-1391-BD55-A6689F8C3AA5">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:01:10 UTC</createdTime>
+<comment>ид</comment>
+<commentInRDBMS>ид</commentInRDBMS>
+<notes>ид</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_type" id="1AD29C29-9C8A-2AB6-8DC0-9115D18053F2">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:01:10 UTC</createdTime>
+<comment>название типа</comment>
+<commentInRDBMS>название типа</commentInRDBMS>
+<notes>название типа</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9A451516-EBAE-9C08-3098-27D915297BEC" name="type_dep_PK">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:01:10 UTC</createdTime>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2AAF3F7-22A2-1391-BD55-A6689F8C3AA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

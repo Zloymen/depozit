@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D51A0D16-516F-221F-C599-5691794B9E87" name="Banks">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 09:40:17 UTC</createdTime>
+<comment>Банки</comment>
+<commentInRDBMS>Банки</commentInRDBMS>
+<generatorID>7AEA355B-3DB8-5E6E-4808-6D6A2306847F</generatorID>
+<notes>Спр. Банков</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="67B5A700-A4E2-D0A6-E916-26585B59EF83">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 09:42:26 UTC</createdTime>
+<comment>ид</comment>
+<commentInRDBMS>ид</commentInRDBMS>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="details_bank" id="F98C7149-7DDB-8FDF-3015-A9C81CAB7EE6">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 09:40:17 UTC</createdTime>
+<commentInRDBMS>реквизиты банка</commentInRDBMS>
+<generatorID>5F90B84C-9732-7A62-3FC1-2967EEE3B1A6</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_bank" id="5B00C1C4-B3B1-C475-3098-D639A0FCFA25">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 09:40:17 UTC</createdTime>
+<comment>Название банка</comment>
+<commentInRDBMS>Название банка</commentInRDBMS>
+<generatorID>5FD7882A-42FD-A1CD-CF57-78AB52629BB0</generatorID>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4FC7461-26A2-D8E7-37CC-441231BD5920" name="Banks_PK">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 09:42:39 UTC</createdTime>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67B5A700-A4E2-D0A6-E916-26585B59EF83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

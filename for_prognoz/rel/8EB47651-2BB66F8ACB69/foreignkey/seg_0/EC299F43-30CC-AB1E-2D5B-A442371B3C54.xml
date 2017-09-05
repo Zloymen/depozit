@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EC299F43-30CC-AB1E-2D5B-A442371B3C54" containerWithKeyObject="10B179B6-8890-9B14-FC54-383502F5DA26" localFKIndex="C1CF1B6D-A4A3-F9AE-9DA3-C42E3988D502" name="view_deposit_type_dep_FK">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:01:29 UTC</createdTime>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>85A9A738-91C2-BA36-F9E1-E19D1884612B</referredTableID>
+<keyObject>9A451516-EBAE-9C08-3098-27D915297BEC</keyObject>
+<referredKeyID>9A451516-EBAE-9C08-3098-27D915297BEC</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Модель БД" id="8EB47651-FB0E-214B-2A0D-2BB66F8ACB69" mainViewID="D7232B71-8C20-3735-B13D-1F32A71E7502">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 09:19:10 UTC</createdTime>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

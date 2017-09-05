@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E86A512F-CBD7-4F18-D8EA-2CABC4A2B657" name="currency">
+<createdBy>girko-kv</createdBy>
+<createdTime>2015-06-25 10:06:38 UTC</createdTime>
+<comment>Валюта</comment>
+<commentInRDBMS>Валюта</commentInRDBMS>
+<notes>Валюта</notes>
+<ownerDesignName>for_prognoz</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+</Table>
